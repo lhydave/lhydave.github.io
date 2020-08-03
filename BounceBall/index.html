@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bounce Ball</title>
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+    <link rel="shortcut icon" href="Design/shortcut-icon.png">
+    <link rel="apple-touch-icon" size="180x180" href="Design/icon-180x180.png">
+    <link rel="apple-touch-icon" size="167x167" href="Design/icon-167x167.png">
+    <link rel="apple-touch-icon" size="152x152" href="Design/icon-152x152.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-left">
+            <h1 class="title">Bounce<br>Ball</h1>
+            <div class="ball-counter">
+                <span></span>
+                <p> × 1</p>
+            </div>
+            <div class="score-container">
+                <div class="now-score">0</div>
+            </div>
+            <div class="restart-button">Restart</div>
+        </div>
+        <div class="game-container">
+            <div class="cover"></div>
+            <div class="game-message">
+                <p>You Lose</p>
+                <div class="retry-button">Try Again</div>
+            </div>
+            <div class="board-container"></div>
+            <div class="bounce-balls-container">
+            </div>
+        </div>
+        <hr>
+        <p class="game-explanation">Click the screen and eject all your balls from that direction. Try to prevent the
+            block from
+            breaking the buttom of the board or else you will lose the game. Enjoy the game!
+        </p>
+        <hr>
+        <p class="about">Created by <a href="https://github.com/lhydave">lhydave</a>. Inspired by the game listed on the
+            <a href=http://www.wesane.com/index.php/games">wesane game</a>, which
+            alleviates my distress in the time of preparing the final exams. Referred to <a
+                href="https://github.com/gabrielecirulli/2048">2048</a> code.
+        </p>
+    </div>
+    <!--scripts section-->
+    <script src="js/block.js"></script>
+    <script src="js/BonusBall.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/BounceBall.js"></script>
+    <script src="js/MouseManager.js"></script>
+    <script src="js/HTMLManager.js"></script>
+    <script src="js/GameManager.js"></script>
+    <script src="js/Application.js"></script>
+</body>
+
+</html>
