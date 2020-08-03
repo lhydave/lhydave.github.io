@@ -3,7 +3,7 @@ requestAnimationFrame(function () {
         || document.documentElement.clientWidth
         || document.body.clientWidth;
     var block_size, bonus_radius, bounce_radius;
-    if (w <= 320) // run on the phone
+    if (w <= 540) // run on the phone
     {
         block_size = 50;
         bonus_radius = 11;
