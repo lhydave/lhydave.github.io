@@ -10,7 +10,7 @@ Curriculum Vitae: [here](https://lhydave.github.io/CV.pdf)
 
 
 ## Publications
-- Zhaohua Chen, Xiaotie Deng, Wenhan Huang, **Hanyu Li**\* and Yuhao Li, "On Tightness of the Tsaknakis-Spirakis Algorithm for Approximate Nash Equilibrium", *The 14th International Symposium on Algorithmic Game Theory~(SAGT 2021)*, September 2021.
+- Zhaohua Chen, Xiaotie Deng, Wenhan Huang, **Hanyu Li**\* and Yuhao Li, "On Tightness of the Tsaknakis-Spirakis Algorithm for Approximate Nash Equilibrium", *The 14th International Symposium on Algorithmic Game Theory (SAGT 2021)*, September 2021.
 
 ## Projects
 - [Bounce Ball](https://github.com/lhydave/BounceBall)
